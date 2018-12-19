@@ -12,7 +12,7 @@ The model performs inference over users and items latent variables for item reco
 
 # Datasets
 
-Three Movielens datasets (100K, 1M and 10M) are provided. The test code runs for 100K for fast presentation.
+Three Movielens datasets (100K, 1M and 10M) are provided. The test code runs for 100K for a quick demonstration.
 
 # Run
 
