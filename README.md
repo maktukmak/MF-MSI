@@ -8,7 +8,7 @@ The code requires Numpy and Scipy packages.
 
 # Model
 
-The model performs inference for the user and item latent variables. The inputs are sparse rating matrix, multivariate Gaussian side information matrix one for the users and one for the items, one categorical side information matrix (can include more than one categorical entry) one for the users and one for the items. Variational EM is used to perform inference.
+The model performs inference for the user and item latent variables. The inputs are sparse rating matrix, multivariate Gaussian side information matrix one for the users and one for the items, and categorical side information matrix (can include more than one categorical entry) one for the users and one for the items. Variational EM is used to perform inference.
 
 # Datasets
 
