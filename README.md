@@ -1,22 +1,16 @@
 # MF-MSI
 
-This code is Python implementation of the paper "Matrix Factorization with Multimodal Side Information".
+This code is Python implementation of the paper "A probabilistic framework to incorporate mixed-data type features: Matrix factorization with multimodal side information".
 
-# Installation
+# Dependencies
 
-The code only requires Numpy and Scipy packages.
+The code requires Numpy and Scipy packages.
 
 # Model
 
-The model performs inference over users and items latent variables for item recommendation purpose. The inputs to the model are sparse rating matrix, one multivariate Gaussian side information vector for each user and item, one categorical side information vector (can include more than one categorical modality) for each user and item. Variational EM is used to make inference.
+The model performs inference for the user and item latent variables. The inputs are sparse rating matrix, multivariate Gaussian side information matrix one for the users and one for the items, one categorical side information matrix (can include more than one categorical entry) one for the users and one for the items. Variational EM is used to perform inference.
 
 # Datasets
 
-Three Movielens datasets (100K, 1M and 10M) are provided. The test code runs for 100K for a quick demonstration.
-
-# Run
-
-To run the model:
-
-pyton MF_MSI_test.py
+Movielens 100K dataset is provided for demonstration.
 
